@@ -1,10 +1,4 @@
 # Showcase
 
-This repository contains publically accessble demos that Synadia has available that shows off the capabilities of NATS.io
-
-Each directory:
-- Has a `walkthrough.md` file
-- Optional: has source code
-- Optional: has artwork and logos
-- Optional: has a link to a walkthrough video
-- Optional: has a link to a blog post
+This repository contains information regarding publically accessble and published demo applications from Synadia Communication.
+Each directory at a minimum has a `walkthrough.md` file, describing what the demo is and how it works.
