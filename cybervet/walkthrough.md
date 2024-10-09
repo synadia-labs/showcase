@@ -26,9 +26,9 @@ Two different game roles are playable:
 - Patient
 - Surgeon
 
-The goal of the patient is to keep yourself alive! You achieve this by playing three mini games simultaneously; a sequential card game, a moving target guessing game represented as a breathing bottle, and a 'rock, paper, scissors' style game. The patient wins if the heart rate drops to 0 bpm.
+The goal of the patient is to kill yourself! You achieve this by playing three mini games simultaneously; a sequential card game, a moving target guessing game represented as a breathing bottle, and a 'rock, paper, scissors' style game. The patient wins if the heart rate drops to 0 bpm. Winning here is anti-logical, making the surgeon the hero of the game.
 
-The goal of the surgeon is to kill the creature! Horrid eh? The surgeon challenges the patient with the same three mini games, by setting the order of the sequential game, moving the breathing target and by selecting rock, paper or scissors. The surgeon wins if the heart rate increases to 100 bpm.
+The goal of the surgeon is save the creature! The surgeon challenges the patient with the same three mini games, by setting the order of the sequential game, moving the breathing target and by selecting rock, paper or scissors. The surgeon wins if the heart rate increases to 100 bpm.
 
 # Basic Structure
 
