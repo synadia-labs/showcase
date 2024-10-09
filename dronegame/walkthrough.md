@@ -2,13 +2,13 @@
 
 ## Overview
 
-For KubeCon NA 23, wanted to build something that would push NATS to the limits and stun the audience. So we built an Augmented Reality drone game! The game is played in a web browser and uses a 3D scene to show the drones and bullets. As users play the game, millions of data points are collected and stored both in NATS and a database. We use every part of NATS (Jetstream, KV, Object Store) to build the game data. For things that aren't a good fit (user ranking queries) we use embedded SQLite.
+For KubeCon NA 23, the team at [Syandia](https://www.synadia.com/) wanted to build something that pushed NATS to the limits and stunned the audience. So we built an augmented reality drone game for mobile devices! The game is played in a web browser and uses a 3D scene to show the drones and bullets. As users play the game, millions of data points are collected and stored both in NATS and a database. We use every part of NATS (Core, Jetstream, KV, Object Store) to build the game data. For things that weren't a good fit (user ranking queries) we use embedded SQLite.
 
-To play the game, just grab your phone or tablet and headover to https://dronegame.io.
+To play the game, just grab your phone or tablet and head over to https://dronegame.io.
 
-You will be asked for permissions to allow access to the sensors and once you've done that, tilt and pan your phone to scope the flying drones, then tap the screen to shoot. At the end of the round, your data will be viewable and you have the option of appearing on the leaderboard.
+You will be asked for permissions to allow access to the sensors and once you've done that, tilt and pan your phone to scope the flying drones, then tap the screen to shoot. At the end of the round, your data will be viewable, and you have the option of logging your score on the leaderboard.
 
-For the general release, we removed the camera requirement, so the drones appear in an arena. This makes people less suspicious we're doing anything questionable without retracting from the game itself.
+For this general release, we've removed the camera requirement–and thus the AR aspect. The drones appear in an arena, instead of around you. This makes people less suspicious we're doing anything questionable, without detracting from the game itself.
 
 ## Sequence Flow
 
