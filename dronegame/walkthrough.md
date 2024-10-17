@@ -2,7 +2,7 @@
 
 ## Overview
 
-For KubeCon NA 23, the team at [Syandia](https://www.synadia.com/) wanted to build something that pushed NATS to the limits and stunned the audience. So we built an augmented reality drone game for mobile devices! The game is played in a web browser and uses a 3D scene to show the drones and bullets. As users play the game, millions of data points are collected and stored both in NATS and a database. We use every part of NATS (Core, Jetstream, KV, Object Store) to build the game data. For things that weren't a good fit (user ranking queries) we use embedded SQLite.
+For KubeCon NA 23, the team at [Synadia](https://www.synadia.com/) wanted to build something that pushed NATS to the limits and stunned the audience. So we built an augmented reality drone game for mobile devices! The game is played in a web browser and uses a 3D scene to show the drones and bullets. As users play the game, millions of data points are collected and stored both in NATS and a database. We use every part of NATS (Core, Jetstream, KV, Object Store) to build the game data. For things that weren't a good fit (user ranking queries) we use embedded SQLite.
 
 To play the game, just grab your phone or tablet and head over to https://dronegame.io.
 
